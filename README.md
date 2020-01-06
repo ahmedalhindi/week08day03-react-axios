@@ -1,6 +1,5 @@
-     [![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)](https://generalassemb.ly/education/web-development-immersive)
- 
- # React Axios
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) React Axios
+
  
 Just about every project needs to interface with a REST API at some stage. [Axios](https://github.com/axios/axios) is a lightweight HTTP client based on the $http service within Angular.js v1.x and similar to the [Fetch API](/js/fetch-api/).
 
@@ -196,8 +195,7 @@ We can make working with promises even simpler with `async` and `await`. The `aw
     };
     
 
-
-# React Router
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) React Router
 
 ## Objectives
 
