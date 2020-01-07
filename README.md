@@ -179,18 +179,30 @@ It can then be used inside of our component by importing our new instance like s
     }
     
 
-[](#using-async-and-await)Using async and await
------------------------------------------------
+[](#using-async-and-await)Using async and await (can use .then and .catch as well)
+----------------------------------------------------------------------------------
 
 We can make working with promises even simpler with `async` and `await`. The `await` keyword resolves the promise and returns the value which we can assign to a variable. Here’s an example:
 
-    handleSubmit = async event => {
-      event.preventDefault();
-    
+    // Promise using async await
+      handleSubmit = async event => {
+      event.preventDefault()
       // Promise is resolved and value is inside of the response const.
       const response = await API.delete(`users/${this.state.id}`);
-    
       console.log(response);
       console.log(response.data);
     };
     
+    // Promise using .then
+      handleSubmit = event => {
+      event.preventDefault()
+      // Promise is resolved and value is inside of the response const.
+     API.delete(`users/${this.state.id}`).then(response => {
+     console.log(response);
+     console.log(response.data);
+    })
+    }
+    
+   # Codealong
+   
+   Lets see how we can combine these functionality so as we can easily see the state changes based on the response from the API.
